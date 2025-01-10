@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #ffffff;
+}
+
+.navbar {
+    background: rgba(80, 60, 157, 1);
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-size: medium;
+}
+
+.logo {
+    width: 100px;
+}
+
+.landingPage {
+    height: 100vh;
+    background: url(https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062991.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.landingPage h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.landingPage h4 {
+    font-size: 1.5rem;
+}
+
+.card2 {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-img-top {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+footer {
+    background: rgba(80, 60, 157, 1);
+    padding: 2rem 0;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin: 0.2rem 0;
+}
+
+.usage-steps {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.usage-steps h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(80, 60, 157, 1);
+}
+
+.usage-steps .card2 {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.usage-steps h4 {
+    font-size: 1.5rem;
+    color: rgba(80, 60, 157, 1);
+}
+
+.usage-steps p {
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .landingPage {
+        height: auto;
+        padding: 30px;
+    }
+
+    .landingPage h1 {
+        font-size: 2rem;
+    }
+
+    .landingPage h4 {
+        font-size: 1.2rem;
+    }
+
+    .card-img-top {
+        max-width: 150px;
+    }
+
+    footer h5 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .nav-link {
+        font-size: 0.8rem;
+    }
+
+    .landingPage h1 {
+        font-size: 1.5rem;
+    }
+
+    .landingPage h4 {
+        font-size: 1rem;
+    }
+
+    .card2 {
+        padding: 15px;
+    }
+
+    .card-img-top {
+        max-width: 120px;
+    }
+
+    footer h5 {
+        font-size: 0.9rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    .usage-steps h2 {
+        font-size: 1.5rem;
+    }
+
+    .usage-steps h4 {
+        font-size: 1.2rem;
+    }
+
+    .usage-steps p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: small;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
